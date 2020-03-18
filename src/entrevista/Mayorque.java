@@ -114,9 +114,9 @@ public class Mayorque extends javax.swing.JFrame {
        
        area.setText(form.Mate(n, m));
        
-       res.setText(form.Mate(n, m));
        
-       JOptionPane.showMessageDialog(this, form.Mate(n, m));
+       
+       
        
         
     }//GEN-LAST:event_resActionPerformed

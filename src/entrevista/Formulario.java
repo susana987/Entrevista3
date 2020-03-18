@@ -13,10 +13,18 @@ public class Formulario {
     
     public String Mate (int a, int b){
        String msg = null;
-       if (a > b){
-          msg = "EL NUMERO 1 ES MAYOR"; 
+       if (a < 0 || b < 0){
+          msg = "SOLO NUMEROS POSITIVOS"; 
        }else{
-           msg = "EL NUMERO 2 ES MAYOR";
+       if (a == 0 || b == 0){
+           msg = "SOLO NUMEROS MAYORES A CERO";
+       }else{
+           if (a > b){
+          msg = a + "\n" + "ES MAYOR";
+       }else{
+           msg = b + "\n" + "ES MAYOR";
+      }
+       }
        }
     return msg;   
     }
